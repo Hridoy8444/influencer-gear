@@ -16,7 +16,23 @@ body{
 
 }
 
-
+.primary-button{
+    outline: 0;
+    border: 0;
+    border-radius: 15px ;
+    padding: 10px 15px;
+    background-image: linear-gradient(900deg, #E02C6D, #E02C6D);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #a7184c ;
+    position: relative;
+    top: 0;
+}
+.primary-button:active{
+    box-shadow: 0 2px 0 #a7184c ;
+    top: 5px;
+}
     
 /* Heading and nav bar css */
 nav{
@@ -62,4 +78,22 @@ nav h3{
 .heading-right img{
     width: 80%;
     padding-left: 20%;
+}
+/* company logo css */
+.compay-logo{
+    padding: 10% 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid lightsteelblue;
+    border-left: none;
+    border-right: none;
+    padding: 2% 0;
+    
+}
+.logo img{
+    width: 55px;
+    margin: 0 23px;
 }
