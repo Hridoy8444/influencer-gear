@@ -161,3 +161,36 @@ span{
     color:  #787885;
 
 }
+/* banner part css */
+.banner{
+    padding: 100px 0;
+}
+.banner-bg{
+    height: 100vh;
+    background-image: url(../images/bg/pexels-jessica-lewis-creative-593324.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    
+}
+.banner-title{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding-top: 10%;
+
+}
+.banner-title h1{
+    font-size: 52px; 
+    text-transform: uppercase;
+    color: white;
+    
+}
+.banner-title h2{
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: white;
+
+}
+
