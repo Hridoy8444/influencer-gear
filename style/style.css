@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #AAAAAA;
 }
 /* common css */
 .container{
@@ -126,6 +127,8 @@ nav .navigation li a:hover{
     box-shadow: 0 30px 35px rgba(0,0,0,0.2);
     padding: 17px 14px;
     border-radius: 5px;
+    background-color: transparent;
+   
     
 
 }
@@ -238,7 +241,36 @@ span{
     padding: 10px 15px;
     margin-left: 60px;
 }
+/* contact css */
+.contact{
+   margin-top: 100px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-feild{
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid grey; 
+}
+.contact-button{
+    outline: 0;
+    border: 0;
+    border-radius: 5px ;
+    background-image: linear-gradient(black, black);
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+}
 /* footer css */
+
 footer{
     display: flex;
     flex-direction: column;
