@@ -325,6 +325,11 @@ footer .icon{
         grid-template-columns: 1fr;
         height: fit-content;
     }
+    .banner-bg{
+        background-size: 100% 90%;
+    }
+    .subscrib-section{
+        height: 30vh;
 }
 
 
@@ -349,4 +354,9 @@ footer .icon{
     .logo{
         flex-wrap: wrap;
     }
+    .banner-bg{
+        background-size: 100% 70%;
+    }
+    .subscrib-section{
+        height: 40vh;
 }
