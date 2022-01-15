@@ -65,6 +65,14 @@ nav .navigation li a:hover{
     background-color:#787885;
     
 }
+#nav-tog{
+    display: none;
+}
+.nav-tog-icon{
+    display: none;
+    color: black;
+    font-size: 30px;
+}
 .heading-main{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -330,9 +338,30 @@ footer .icon{
     .subscrib-section{
         height: 30vh;
 } */
+    .nav-tog-icon{
+         display: block;
+    }
+    .navigation{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: skyblue;
+        padding: 20px 0 ;
+        transform: translateY(-370px);
+        transition: .7s ease-in-out;
+    } 
+    #nav-tog:checked ~ .navigation{
+        transform: translateY(0px);
+    }
+    .logo{
+        flex-wrap: wrap;
+}
 
 
-@media (max-width:480px) {
+@media (max-width:600px) {
     .heading-main{
         grid-template-columns: 1fr;
     }
@@ -359,5 +388,5 @@ footer .icon{
     }
     .subscrib-section{
         height: 40vh; */
-        
+       
 }
