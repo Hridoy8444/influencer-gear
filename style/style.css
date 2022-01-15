@@ -335,4 +335,25 @@ footer .icon{
         padding: 1%;
     }
 }
+@media (max-width:490px) {
+    .heading-main{
+        grid-template-columns: 1fr;
+    }
+    .heading-main.primary-button{
+        padding-left: 30%;
+    }
+    .heading-left{
+        order: 2;
+       
+    }
+    .heading-right img{
+        width: 100%;
 
+    }
+    .heading-left h1{
+        font-size: 30px;
+    }
+    .logo{
+        flex-wrap: wrap;
+    }
+}
