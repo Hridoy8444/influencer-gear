@@ -355,7 +355,7 @@ footer .icon{
         flex-wrap: wrap;
     }
     .banner-bg{
-        background-size: 100% 70%;
+        background-size: 100% 100%;
     }
     .subscrib-section{
         height: 40vh;
