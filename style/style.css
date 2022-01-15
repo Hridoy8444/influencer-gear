@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #AAAAAA;
+    
 }
 /* common css */
 .container{
@@ -84,6 +84,7 @@ nav .navigation li a:hover{
 }
 .heading-right img{
     width: 80%;
+    min-height: 400px;
     padding-left: 20%;
 }
 .heading-right:hover .photo{
@@ -163,6 +164,12 @@ span{
     font-weight: 600;
     color:  #787885;
 
+}
+.side-text{
+    text-decoration: none;
+   color: #E02C6D ;
+    padding-left: 90%;
+    
 }
 /* banner part css */
 .banner{
@@ -281,5 +288,51 @@ footer{
     margin-top: 100px;
     color: white;
     background-color: black;
+}
+footer .icon{
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+/* responsive css */
+@media (max-width:1050px) {
+    .populer-collection,
+    .heading-main{
+        grid-template-columns: 1fr 1fr;
+    }
+    .heading-left{
+        font-size: 45px;
+    }
+    .logo{
+        padding: 1%;
+    }
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner h2{
+        font-size: 35px;
+    }
+}
+@media (max-width:800px) {
+    .populer-collection{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+}
+@media (max-width:490px) {
+    .heading-right img{
+        width: 100%;
+
+    }
+    .logo{
+        padding: 1%;
+    }
 }
 
