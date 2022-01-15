@@ -325,12 +325,12 @@ footer .icon{
         grid-template-columns: 1fr;
         height: fit-content;
     }
-    .banner-bg{
+    /* .banner-bg{
         background-size: 100% 90%;
     }
     .subscrib-section{
         height: 30vh;
-}
+} */
 
 
 @media (max-width:490px) {
@@ -354,9 +354,9 @@ footer .icon{
     .logo{
         flex-wrap: wrap;
     }
-    .banner-bg{
+    /* .banner-bg{
         background-size: 100% 100%;
     }
     .subscrib-section{
-        height: 40vh;
+        height: 40vh; */
 }
