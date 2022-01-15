@@ -326,15 +326,8 @@ footer .icon{
         height: fit-content;
     }
 }
-@media (max-width:490px) {
-    .heading-right img{
-        width: 100%;
 
-    }
-    .logo{
-        padding: 1%;
-    }
-}
+
 @media (max-width:490px) {
     .heading-main{
         grid-template-columns: 1fr;
